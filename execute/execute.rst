@@ -221,7 +221,7 @@ Once the process has finished the log file will be opened (:numref:`figLogFile`)
 
 .. _figLogFile:
 
-.. figure:: figures/LogFile.png
+.. figure:: figures/LogFileExample.png
 	:align: center
 
 	The log file is shown when the process finishes

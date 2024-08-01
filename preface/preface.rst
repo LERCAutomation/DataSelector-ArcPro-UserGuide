@@ -77,7 +77,7 @@ Useful links
 
 Related community links:
 
-* Administrators (`ArcGIS Pro<https://github.com/LERCAutomation/DataSelector-ArcPro/releases/>`_) - Release notes and installers for ArcGIS Pro.
+* Administrators (`ArcGIS Pro <https://github.com/LERCAutomation/DataSelector-ArcPro/releases/>`_) - Release notes and installers for ArcGIS Pro.
 * Developers (`ArcGIS Pro <https://github.com/LERCAutomation/DataSelector-ArcPro>`_) - Source code for the ArcGIS Pro version of the Data Selector Tool.
 * Issues (`ArcGIS Pro <https://github.com/LERCAutomation/DataSelector-ArcPro/issues>`_) - Details of known issues and existing change requests.
 
