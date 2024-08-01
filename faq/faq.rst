@@ -28,7 +28,7 @@ Operating the tool
 
 **One of the SQL Server tables I want to use isn't showing in the form. How do I get it to show up?**
 
-	This issue will arise if the layer isn't being selected by the SQL statement in the XML configuration document. Please refer to the :doc:`setup <../setup/setup>` section and adjust the TableListSQL statement, and the Include and Exclude wildcards as appropriate.
+	This issue will arise if the layer isn't being selected by the SQL statement in the XML configuration document. Please refer to the :doc:`Setting up the tool <../setup/setup>` section and adjust the TableListSQL statement, and the Include and Exclude wildcards as appropriate.
 
 **I got an error message about a SQL error**
 

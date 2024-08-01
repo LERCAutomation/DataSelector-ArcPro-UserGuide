@@ -136,4 +136,4 @@ Finally, the log file details each step that was taken during the process, and g
 	Example of a Data Selector tool log file
 
 
-The following chapters, :doc:`setting up the tool <../setup/setup>` and :doc:`running the tool <../execute/execute>`, will guide you through setting up and operating the tool in such a way that these tool outputs meet the general requirements of data selection within your organisation.
+The following chapters, :doc:`Setting up the tool <../setup/setup>` and :doc:`Running the tool <../execute/execute>`, will guide you through setting up and operating the tool in such a way that these tool outputs meet the general requirements of data selection within your organisation.

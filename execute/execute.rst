@@ -17,7 +17,7 @@ As discussed in the :doc:`Setting up the tool <../setup/setup>` section, the Dat
 - The Data Selector tool has been installed and set up.
 
 .. seealso::
-	Please refer to the :doc:`setup <../setup/setup>` section for further information about any of these requirements.
+	Please refer to the :doc:`Setting up the tool <../setup/setup>` section for further information about any of these requirements.
 
 
 .. raw:: latex

@@ -38,7 +38,7 @@ The Data Selector Tool presents a simple user interface to extract information f
 	The Data Selector tool interface
 
 
-Queries used in the tool can be saved and loaded so they can be used again-and-again and run by all users. When the tool runs the query entered by the user will be passed to SQL Server to be executed against the selected SQL table. Any errors in the syntax of the query will be displayed in a pop-up message. The results of a successful execution will be saved in the required format. The tool also generates a log of the execution results which details the steps that were taken during the process and the number of records selected and output. The process is discussed in this document in the section on :doc:`using the tool <../execute/execute>`.
+Queries used in the tool can be saved and loaded so they can be used again-and-again and run by all users. When the tool runs the query entered by the user will be passed to SQL Server to be executed against the selected SQL table. Any errors in the syntax of the query will be displayed in a pop-up message. The results of a successful execution will be saved in the required format. The tool also generates a log of the execution results which details the steps that were taken during the process and the number of records selected and output. The process is discussed in this document in the section on :doc:`Running the tool <../execute/execute>`.
 
 .. raw:: latex
 
@@ -49,7 +49,7 @@ Defining the default values for some options in the tool is done via a configura
 * The default location of the output folder and the default output format.
 * The location of the default folder for saving and loading queries.
 
-Using this configuration file, each individual LERC can tailor the Data Selector Tool to its individual requirements. An example of the XML file is included in the :doc:`Appendix <../appendix/appendix>`, and the process of setting up this file is discussed in the section on :doc:`setting up the tool <../setup/setup>`. 
+Using this configuration file, each individual LERC can tailor the Data Selector Tool to its individual requirements. An example of the XML file is included in the :doc:`Appendix <../appendix/appendix>`, and the process of setting up this file is discussed in the section on :doc:`Setting up the tool <../setup/setup>`. 
 
 .. index::
 	single: Benefits
