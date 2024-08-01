@@ -127,29 +127,12 @@ Provided that the selected XML profile is otherwise correct, the **Select** tab 
 Using the form
 ==============
 
-Select the required source table in the **SQL Tables** box (:numref:`figSelectSQLTable`).
-
-.. _figSelectSQLTable:
-
-.. figure:: figures/SelectSQLTable.png
-	:align: center
-
-	Select the required source table in the SQL tables list
-
-
-.. raw:: latex
-
-   \newpage
-
-Entering queries
-================
-
 Specify the columns and SQL clauses that you wish to use to query the selected table. All syntax should adhere to SQL Server SQL syntax, and it is important that the correct part of the query is entered in the correct text box (:numref:`figEnterSQLCriteria`).
 
 Select
 	Enter the columns you wish to select in the ``Select`` box, including any changes in name (e.g. ``CommonName AS Name``)
 From
-	Select the table or view you wish to query
+	Select the required source table or view you wish to query
 Where
 	Enter any selection criteria in the ``Where`` box
 Group By
