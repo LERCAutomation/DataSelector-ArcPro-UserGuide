@@ -75,6 +75,8 @@ structure is correct, the list of user profiles will appear in the drop-down lis
 .. note::
 	The location of the configuration folder will be stored for future use.
 
+.. index::
+	single: Loading a profile
 
 Loading a profile
 =================
@@ -135,6 +137,49 @@ Select the required source table in the **SQL Tables** box (:numref:`figSelectSQ
 	Select the required source table in the SQL tables list
 
 
+.. raw:: latex
+
+   \newpage
+
+Entering queries
+================
+
+Specify the columns and SQL clauses that you wish to use to query the selected table. All syntax should adhere to SQL Server SQL syntax, and it is important that the correct part of the query is entered in the correct text box (:numref:`figEnterSQLCriteria`).
+
+Select
+	Enter the columns you wish to select in the ``Select`` box, including any changes in name (e.g. ``CommonName AS Name``)
+From
+	Select the table or view you wish to query
+Where
+	Enter any selection criteria in the ``Where`` box
+Group By
+	Enter any required grouping criteria in the ``Group By`` box
+
+Order By
+	Enter any required ordering criteria in the ``Order By`` box.
+
+.. _figEnterSQLCriteria:
+
+.. figure:: figures/EnterSQLCriteria.png
+	:align: center
+
+	Enter SQL Criteria
+
+.. note::
+	It is not necessary to include key words such as ``SELECT``, ``WHERE``, ``GROUP BY`` and ``ORDER BY``. Doing so will make the query invalid.
+
+.. note::
+	The tool is designed to run a SELECT query only and will not execute an action query (such as a delete, update or alter).
+
+A simple example query is shown in :numref:`figExample`.
+
+.. _figExample:
+
+.. figure:: figures/ExampleQuery.png
+	:align: center
+
+	Example of a simple query
+
 Select the output file format to contain the selected records (:numref:`figSelectOutputFormat`).
 
 .. _figSelectOutputFormat:
@@ -151,61 +196,18 @@ The following options are available in ArcGIS Pro:
 * **Text file** (tab delimited)
 * **CSV file** (comma delimited)
 
-Finally, select whether the log file should be overwritten, and whether the log file should be opened upon completion. Now the form is set up to run your query.
-
-
-.. raw:: latex
-
-   \newpage
-
-Entering queries
-================
-
-Specify the columns and SQL clauses that you wish to use to query the selected table. All syntax should adhere to SQL Server SQL syntax, and it is important that the correct part of the query is entered in the correct text box. Bear in mind when writing your query that the tool is designed to run a SELECT query only, and that it will not execute an action query (such as a delete, update or alter).
-
-Select
-	Enter the columns you wish to select in the ``Select`` box, including any changes in name (e.g. ``CommonName AS Name``)
-From
-	Select the table or view you wish to query
-Where
-	Enter any selection criteria in the ``Where`` box
-Group By
-	Enter any required grouping criteria in the ``Group By`` box
-
-Order By
-	Enter any required ordering criteria in the ``Order By`` box.
-
-.. _figExample:
-
-.. figure:: figures/ExampleQuery.png
-	:align: center
-
-	Example of a simple query
-
-.. note::
-	It is not necessary to include key words such as ``SELECT``, ``WHERE``, ``GROUP BY`` and ``ORDER BY``. Doing so will make the query invalid.
-
-A simple example query is shown in :numref:`figExample`.
-
-.. _figExample:
-
-.. figure:: figures/ExampleQuery.png
-	:align: center
-
-	Example of a simple query
-
-Choose the required output format.
-
-.. _figSelectOutputFormat:
-
-.. figure:: figures/ExampleQuery.png
-	:align: center
-
-	Example of a simple query
-
 .. note::
 	If the required output format is a spatial dataset (i.e. Shapefile or Geodatabase feature class), but the output does not contain a spatial column, then the output format generated will be different than that specified. For shapefiles a .csv file will be generated, and for geodatabases a table will be generated.
 
+
+Finally, select whether the log file should be overwritten, and whether the log file should be opened upon completion. Now the form is set up to run your query.
+
+.. _figLogFileOptions:
+
+.. figure:: figures/LogFileOptions.png
+	:align: center
+
+	Select the log file options
 
 .. raw:: latex
 

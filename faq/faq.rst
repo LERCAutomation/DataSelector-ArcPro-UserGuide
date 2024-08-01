@@ -45,4 +45,4 @@ Tool issues
 
 **How do I report a new bug or propose a change in the tool?**
 
-	Please check the existing known issues and change requests on the LERCAutomation pages on GitHub (`ArcGIS Pro <https://github.com/LERCAutomation/DataSelector-ArcPro>`_) before reporting/proposing new issues or changes. If you have a new issue or request you can submit it there and it will be picked up by the developers. Alternatively, you can email suggestions to `Andy Foy <mailto:andy@andyfoyconsulting.co.uk>`_. 
+	Please report any issues or propose any new changes to `Andy Foy <mailto:andy@andyfoyconsulting.co.uk>`_. 
