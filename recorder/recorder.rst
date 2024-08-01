@@ -39,7 +39,7 @@ In order to 'spatialize' the master table additional steps in the SQL script are
 
 
 .. index::
-	single: Tool overview
+	single: Tool components
 
 The Data Selector tool
 ======================
@@ -51,7 +51,7 @@ There are three component parts to the Data Selector tool that work together to 
 
 1. Spatial data held in a SQL Server database (a stored procedure for its extraction is also required).
 #. An XML configuration file that specifies how the tool is set up and how data will be saved by default.
-#. The Data Selector tool itself.
+#. The Data Selector tool ArcGIS Pro add-in.
 
 .. raw:: latex
 
@@ -62,13 +62,13 @@ Tool workflow
 
 The Data Selector tool requires minimum user input in order to perform queries once it is configured. The simple workflow is as follows (see :numref:`figUIAnn`):
 
-1. The user selects which SQL master table to query.
-#. The user lists all the attributes (columns) from the selected SQL table to return (or enters '*' to return all attributes).
+1. The user lists all the attributes (columns) from the selected SQL table to return (or enters '*' to return all attributes).
+#. The user selects which SQL table or view to query.
 #. The user specifies any 'Where' selection criteria, if any, to apply when selecting records from the SQL table.
-#. If required, the user can also specify any 'Group By' and 'Order By' criteria to apply when selecting records from the SQL table.
+#. The user also specify any 'Group By' and 'Order By' criteria to apply when selecting records from the SQL table.
 #. The user selects what output format should be created for the selected records.
-#. There is also an option to clear the log file before use and open the log file after completion.
-#. Once the user clicks **Run** the process starts.
+#. The user opts to clear the log file before use and/or open the log file after completion.
+#. The user clicks **Run** the process starts.
 
 
 .. _figUIAnn:

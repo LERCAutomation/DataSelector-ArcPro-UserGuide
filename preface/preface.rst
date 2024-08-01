@@ -118,6 +118,9 @@ The following typographical conventions are used in this manual:
 .. tip::
 	Tips can help save time or provide shortcuts.
 
+.. seealso::
+	References and/or links to other sections of this guide.
+
 .. note::
 	Notes explain things in more detail or highlight important points.
 

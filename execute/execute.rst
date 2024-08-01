@@ -12,7 +12,8 @@ The operation of the Data Selector tool is explained in this section. While the 
 
 As discussed in the :doc:`Setting up the tool <../setup/setup>` section, the Data Selector tool is operated from the GIS application. It relies on the SQL tables containing any data that may be selected and a configuration document for setting up the tool. Therefore, before running the tool, ensure the following conditions are met:
 
-- The XML configuration document has been set up correctly and is named correctly.
+- The tool XML configuration file 'DataSelector.xml' has been set up and is named correctly.
+- One or more user XML profiles have been set up and are in the same folder as the tool XML file.
 - The Data Selector tool has been installed and set up.
 
 .. seealso::
@@ -38,6 +39,8 @@ To open the Data Selector tool in ArcGIS Pro, open the **Tools** menu bar and cl
 
 	Launching the Data Selector tool in ArcGIS Pro
 
+.. note::
+	Once the tool has been opened the window pane will remain open unless it is manually closed. As with other dockable windows in ArcGIS Pro, the window can docked anywhere in the ArcGIS Pro application and can be pinned or hidden when not in use.
 
 .. raw:: latex
 
@@ -53,7 +56,7 @@ In order to function, the tool needs to know the location of the XML configurati
 the tool is run, or whenever the configuration file is moved, the user must specify the folder containing
 the XML files.
 
-Click on the 'Open folder' button.
+Click on the 'Open folder' button (:numref:`figOpenXMLFolderButton`).
 
 .. _figOpenXMLFolderButton:
 
@@ -63,7 +66,7 @@ Click on the 'Open folder' button.
 	Click on the Open Folder button
 
 Then navigate to the folder containing the XML files and click OK. If the tool XML file is present and its
-structure is correct, the list of user profiles will appear in the drop-down list.
+structure is correct, the list of user profiles will appear in the drop-down list (:numref:`figSelectConfigFolder`).
 
 .. _figSelectConfigFolder:
 
@@ -82,18 +85,18 @@ Loading a profile
 =================
 
 If more than one user XML profile is found, and the tool configuration file is configured to allow the user
-to choose the XML profile, then the **Profile** tab will appear to allow the user to choose an XML profile.
+to choose the XML profile, then the **Profile** tab will appear to allow the user to choose an XML profile (:numref:`figSelectXMLProfile`).
 
 .. _figSelectXMLProfile:
 
 .. figure:: figures/SelectXMLProfile.png
 	:align: center
 
-	Example warning message displayed for any XML structural issues
+	Example list of XML profiles to select
 
 Select a profile and click 'Load' to start the tool using that profile. If there are any structural issues
 with the selected XML profile, the tool will display a message with the error it has encountered, and not
-load any further.
+load any further (:numref:`figLaunchWarning`).
 
 .. _figLaunchWarning:
 
@@ -110,11 +113,11 @@ Provided that the selected XML profile is otherwise correct, the **Select** tab 
 .. figure:: figures/DisplayForm.png
 	:align: center
 
-	The form displaying the available SQL tables and options
+	The form displaying all of the available SQL fields and options
 
 .. note::
 	If there is only one user XML profile, or if the tool configuration file is configured to **not** allow
-	the user to choose the XML profile, then the default XML profile will lead (if found).
+	the user to choose the XML profile, then the default XML profile will lead automatically (if found).
 
 
 .. raw:: latex
@@ -148,7 +151,7 @@ Order By
 
 	Enter SQL Criteria
 
-.. note::
+.. caution::
 	It is not necessary to include key words such as ``SELECT``, ``WHERE``, ``GROUP BY`` and ``ORDER BY``. Doing so will make the query invalid.
 
 .. note::
@@ -183,7 +186,7 @@ The following options are available in ArcGIS Pro:
 	If the required output format is a spatial dataset (i.e. Shapefile or Geodatabase feature class), but the output does not contain a spatial column, then the output format generated will be different than that specified. For shapefiles a .csv file will be generated, and for geodatabases a table will be generated.
 
 
-Finally, select whether the log file should be overwritten, and whether the log file should be opened upon completion. Now the form is set up to run your query.
+Finally, select whether the log file should be overwritten, and whether the log file should be opened upon completion (:numref:`figLogFileOptions`). Now the form is set up to run your query.
 
 .. _figLogFileOptions:
 
@@ -192,6 +195,7 @@ Finally, select whether the log file should be overwritten, and whether the log 
 
 	Select the log file options
 
+
 .. raw:: latex
 
    \newpage
@@ -199,7 +203,7 @@ Finally, select whether the log file should be overwritten, and whether the log 
 Running the query
 =================
 
-Once the correct query has been entered and the output format selected, check whether the log file should be overwritten using the ``Clear log file?`` check box and opened upon completion using the ``Open log file when run?`` check box. Then, click `OK`. You will be prompted for an output file (:numref:`figDefineOutput`). Enter a name for your output and click `Save`. If an existing file is selected, the tool will prompt you for permission to overwrite this, or to choose a different name. Once the output name has been selected the tool will begin the process.
+Once the query has been entered and the options selected, click `Run`. You will be prompted for an output file (:numref:`figDefineOutput`). Enter a name for your output and click `Save`. If an existing file is selected, the tool will prompt you for permission to overwrite this, or to choose a different name. Once the output name has been selected the tool will begin the process.
 
 .. _figDefineOutput:
 
@@ -208,7 +212,11 @@ Once the correct query has been entered and the output format selected, check wh
 
 	Enter the name for your output file.
 
-While the process is running a progress bar will appear at the bottom of the form providing details of progress.
+.. note::
+	There is no need to enter any file suffix (e.g. .shp). The tool will add this automatically.
+
+
+While the process is running a progress bar will appear at the bottom of the form providing details of progress (:numref:`figProgressBar`).
 
 .. _figProgressBar:
 
@@ -216,6 +224,7 @@ While the process is running a progress bar will appear at the bottom of the for
 	:align: center
 
 	The progress bar as the process is running
+
 
 Once the process has finished the log file will be opened (:numref:`figLogFile`), if required, so that you can check the process has completed correctly, and the results will be added to the screen as discussed above.
 
@@ -226,14 +235,15 @@ Once the process has finished the log file will be opened (:numref:`figLogFile`)
 
 	The log file is shown when the process finishes
 
+
 Depending on whether your query and selected output type generate a spatial or a tabular output, the output will be created and shown as follows:
 
 Spatial
-	If you are creating a **spatial** output layer, it may be split into point and polygon layers (as required) and will be added to the active map (or to a new map if no map is active) in a grouped layer.
+	If you are creating a **spatial** output layer, it may be split into point and polygon layers (if both geometry types are present in the output) and will be added to the active map (or to a new map if no map is active) in a grouped layer.
 Non-Spatial
 	If you are creating a **non-spatial** output file it will be added to the active map (only if a map is active), otherwise the file will be created but not added to ArcGIS Pro.
 
-An example of spatial and tabular outputs in ArcGIS Pro is shown in :numref:`figSpatialOutput` and :numref:`figTabularOutput`. 
+An example of spatial and tabular outputs in ArcGIS Pro is shown in :numref:`figSpatialOutput`.
 
 .. _figSpatialOutput:
 

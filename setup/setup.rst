@@ -191,18 +191,14 @@ _`Spatial_Tables` table
 Installing the tool
 ===================
 
-Before installing the tool you will need to install another ArcGIS Pro add-in 'DataToolbar'. This add-in with simply create a new 'Tools' toolbar onto which the Data Selector tool and other Data tools will be added once installed. To install the toolbar follow the instructions below using  the DataToolbar add-in.
-
-.. index::
-	single: Installation; ArcGIS Pro
-
-Installing in ArcGIS Pro
-------------------------
-
 Installing the tool in ArcGIS Pro is straightforward. There are two ways it can be installed:
 
+.. note::
+	Before installing the tool you will need to install another ArcGIS Pro add-in 'DataToolbar'. This add-in with simply create a new 'Tools' toolbar onto which the Data Selector tool and other Data tools will be added once installed. To install the toolbar follow the instructions below using  the DataToolbar add-in.
+
+
 Installation through Windows Explorer
-*************************************
+-------------------------------------
 
 Open Windows Explorer and double-click on the ESRI Add-in file for the Data Selector tool (:numref:`figInstallTool`).
 
@@ -227,9 +223,10 @@ Installation will begin after confirming you wish to install the tool on the dia
 	Installation begins after clicking 'Install Add-in'
 
 
-Once it is installed, it will appear in the Add-In Manager and on the 'Tools' menu bar [1]_.
+Once it is installed, it will appear in the Add-In Manager and on the 'Tools' menu bar.
 
-.. [1] The 'Tools' menu bar will only appear once the DataToolbar add-in has also been installed.
+.. note::
+	The 'Tools' menu bar will only appear once the DataToolbar add-in has also been installed.
 
 .. caution::
 	In order for this process to work all running ArcGIS Pro sessions must be closed. The tool will not install or install incorrectly if there are copies of ArcGIS Pro running.
@@ -239,7 +236,7 @@ Once it is installed, it will appear in the Add-In Manager and on the 'Tools' me
    \newpage
 
 Installation from within ArcGIS Pro
-***********************************
+-----------------------------------
 
 Firstly, open ArcGIS Pro and go to the Add-In Manager through the Project menu (:numref:`figOpenAddInManager`).
 
@@ -274,3 +271,7 @@ After restarting ArcGIS Pro the tool will show in the Add-In Manager (:numref:`f
 	:align: center
 
 	The ArcGIS Pro Add-In Manager showing the Data Selector tool
+
+
+.. note::
+	The 'Tools' menu bar will only appear once the DataToolbar add-in has also been installed.

@@ -3,7 +3,7 @@ Appendix
 ********
 
 .. index::
-    single: Example Tool XML file; XML files
+    single: XML files; Example Tool XML file
 
 Example tool XML file
 =====================
@@ -53,7 +53,7 @@ Below is an example of tool XML that must be present for the Data Selector tool 
 
 
 .. index::
-	single: Example user XML file; XML files
+	single: XML files; Example user XML profile
 
 Example user XML profile
 ========================
