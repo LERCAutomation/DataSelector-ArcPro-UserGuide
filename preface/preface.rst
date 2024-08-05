@@ -80,6 +80,10 @@ Related community links:
 * Issues (`Issues <https://github.com/LERCAutomation/DataSelector-ArcPro/issues>`_) - Details of known issues and existing change requests.
 
 
+.. raw:: latex
+
+	\newpage
+
 .. index::
 	single: Acknowledgements
 
@@ -88,10 +92,6 @@ Acknowledgements
 
 Many thanks are due to all the LERCs in the south-east of England and their staff who have, and continue to, fund and contribute to the Data Selector tool.  It takes many developers, testers and users to build a truly useful tool (especially users who care enough to test new releases, report bugs and discuss feature requests).
 
-
-.. raw:: latex
-
-	\newpage
 
 .. index::
 	single: Conventions used in this user guide

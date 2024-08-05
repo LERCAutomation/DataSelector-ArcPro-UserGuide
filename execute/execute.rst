@@ -107,6 +107,11 @@ load any further (:numref:`figLaunchWarning`).
 
 	Example warning message displayed for any XML structural issues
 
+
+.. raw:: latex
+
+   \newpage
+
 Provided that the selected XML profile is otherwise correct, the **Select** tab will display 
 (:numref:`figDisplayForm`).
 
@@ -114,6 +119,7 @@ Provided that the selected XML profile is otherwise correct, the **Select** tab 
 
 .. figure:: figures/DisplayForm.png
 	:align: center
+	:scale: 80
 
 	The form displaying all of the available SQL fields and options
 
@@ -150,6 +156,7 @@ Order By
 
 .. figure:: figures/EnterSQLCriteria.png
 	:align: center
+	:scale: 80
 
 	Enter SQL Criteria
 
@@ -165,6 +172,7 @@ A simple example query is shown in :numref:`figExample`.
 
 .. figure:: figures/ExampleQuery.png
 	:align: center
+	:scale: 80
 
 	Example of a simple query
 
@@ -211,6 +219,7 @@ Once the query has been entered and the options selected, click `Run`. You will 
 
 .. figure:: figures/DefineOutput.png
 	:align: center
+	:scale: 80
 
 	Enter the name for your output file.
 
@@ -227,6 +236,10 @@ While the process is running a progress bar will appear at the bottom of the for
 
 	The progress bar as the process is running
 
+
+.. raw:: latex
+
+   \newpage
 
 Once the process has finished the log file will be opened (:numref:`figLogFile`), if required, so that you can check the process has completed correctly, and the results will be added to the active map as discussed above.
 
@@ -245,6 +258,11 @@ Spatial
 Non-Spatial
 	If you are creating a **non-spatial** output file it will be added to the active map (only if a map is active), otherwise the file will be created but not added to ArcGIS Pro.
 
+
+.. raw:: latex
+
+   \newpage
+
 An example of spatial and tabular outputs in ArcGIS Pro is shown in :numref:`figSpatialOutput`.
 
 .. _figSpatialOutput:
@@ -254,6 +272,10 @@ An example of spatial and tabular outputs in ArcGIS Pro is shown in :numref:`fig
 
 	Example output from a spatial query
 
+
+.. raw:: latex
+
+   \newpage
 
 Loading & saving queries
 ========================
@@ -266,5 +288,6 @@ Queries can be saved or loaded by using the ``Save`` and ``Load`` buttons (:numr
 
 .. figure:: figures/SaveLoadQueries.png
 	:align: center
+	:scale: 80
 
 	Save and load queries

@@ -34,6 +34,7 @@ The Data Selector Tool presents a simple user interface to extract information f
 
 .. figure:: figures/UserInterface.png
 	:align: center
+	:scale: 80
 
 	The Data Selector tool interface
 

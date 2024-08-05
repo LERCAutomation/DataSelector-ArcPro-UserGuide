@@ -58,9 +58,6 @@ There are four component parts to the Data Selector tool that work together to a
 #. One or more user XML profiles that specifies how the tool is set up and how data will be saved by default.
 #. The Data Selector tool ArcGIS Pro add-in.
 
-.. raw:: latex
-
-   \newpage
 
 Tool workflow
 -------------
@@ -80,6 +77,7 @@ The Data Selector tool requires minimum user input in order to perform queries o
 
 .. figure:: figures/MenuExampleAnnotated.png
 	:align: center
+	:scale: 80
 
 	The Data Selector tool workflow
 
@@ -117,12 +115,17 @@ The tool will output GIS layers as ESRI (.shp) shapefiles or as file-geodatabase
 	Example of a GIS spatial output from the Data Selector tool
 
 
+.. raw:: latex
+
+   \newpage
+
 Text file outputs can be generated in CSV format (:numref:`figTabularOutput`) or TXT format. 
 
 .. _figTabularOutput:
 
 .. figure:: figures/ExampleTabularOutput.png
 	:align: center
+	:scale: 80
 
 	Example of a text file output from the Data Selector tool
 
