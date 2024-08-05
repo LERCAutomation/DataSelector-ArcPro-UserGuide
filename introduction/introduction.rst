@@ -15,7 +15,7 @@ However, although the Recorder database structure is well documented it is very 
 .. Note::
 	The Recorder database structure is based on the NBN data model which is documented in the Documentation Wiki on the `Recorder web site <www.jncc.gov.uk/recorder>`_.
 
-To facilitate the querying of data from these new simplified tables a new interface was developed - the **Data Selector** tool. The Tool was originally developed for use with MapInfo for Greenspace Information for Greater London (GiGL) but is now available for use with MapInfo, ArcMap Desktop and ArcGIS Pro (this version) and is used by a number of LERCs.
+To facilitate the querying of data from these new simplified tables a new interface was developed - the **Data Selector** tool. The Tool was originally developed for use with MapInfo for Greenspace Information for Greater London CIC (GiGL) but is now available for use with MapInfo, ArcMap Desktop and ArcGIS Pro (this version) and is used by a number of LERCs.
 
 
 .. raw:: latex
@@ -49,7 +49,7 @@ Defining the default values for some options in the tool is done via a configura
 * The default location of the output folder and the default output format.
 * The location of the default folder for saving and loading queries.
 
-Using this configuration file, each individual LERC can tailor the Data Selector Tool to its individual requirements. An example of the XML file is included in the :doc:`Appendix <../appendix/appendix>`, and the process of setting up this file is discussed in the section on :doc:`Setting up the tool <../setup/setup>`. 
+Using this configuration file, each individual LERC can tailor the Data Selector Tool to its individual requirements. An example of the XML file is included in the :doc:`Appendix <../appendix/appendix>`, and the process of setting up this file is discussed in the section on :doc:`Setting up the tool <../setup/setup>`.
 
 .. index::
 	single: Benefits

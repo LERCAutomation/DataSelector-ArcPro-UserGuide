@@ -38,6 +38,10 @@ If your Recorder6 database is running on a more recent version of SQL Server (i.
 In order to 'spatialize' the master table additional steps in the SQL script are run to calculate the geometry of all records based on their grid reference. The geometry can be calculated as points and/or polygons based on the requirements of the LERC and how the data will be used. Once spatialized, records from the master table can be directly plotted and viewed as points or polygons in GIS.  In addition, queries can be executed in SQL Server using the spatial location of the records in much the same way that spatial queries can be performed in GIS. This reduces the overheads in GIS and means that the number of records exported from SQL Server into GIS can be much reduced.
 
 
+.. raw:: latex
+
+   \newpage
+
 .. index::
 	single: Tool components
 
@@ -47,10 +51,11 @@ The Data Selector tool
 Tool components
 ---------------
 
-There are three component parts to the Data Selector tool that work together to automate the process described above:
+There are four component parts to the Data Selector tool that work together to automate the process described above:
 
 1. Spatial data held in a SQL Server database (a stored procedure for its extraction is also required).
-#. An XML configuration file that specifies how the tool is set up and how data will be saved by default.
+#. A tool XML configuration file that specifies how if the user can choose a user XML profile.
+#. One or more user XML profiles that specifies how the tool is set up and how data will be saved by default.
 #. The Data Selector tool ArcGIS Pro add-in.
 
 .. raw:: latex
@@ -83,7 +88,7 @@ In essence, the process that the tool follows is identical to the manual process
 
 1. The required columns and records from the SQL table are selected based on the specified criteria.
 #. The selected records are saved to the target file in the required output format.
-#. During the process the tool records its progress to a log file and, when the process finishes, this log file can be displayed to allow the user to assess the success of the data selection.
+#. During the process the tool records its progress to a log file and, when the process finishes, this log file can be displayed to allow the user to assess the success of the data selection. The log file in a location specified in the user XM profile.
 
 
 .. raw:: latex

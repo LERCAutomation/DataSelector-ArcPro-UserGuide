@@ -35,7 +35,7 @@ User configuration profiles
 These configuration files must be in the same folder as the tool configuration file. There can be as many profiles as you wish, each with different options and default settings. Each file contains all of the user options and default settings for the tool including, where files are kept, which SQL Server to connect to, which SQL Server tables to make available and other general settings. Attributes and settings are presented as nodes (beginning with a start node, e.g. ``<example>``, and finishing with an end note, e.g. ``<\example>``), with the value for the setting held between the ``<value>`` and ``<\value>`` tag. 
 
 .. note::
-	The files can have any name prefix as long as they have a '.xml' file extension.
+	The XML profiles can have any name prefix as long as they have a '.xml' file extension.
 
 The XML file can be edited in a text editor such as Notepad.
 

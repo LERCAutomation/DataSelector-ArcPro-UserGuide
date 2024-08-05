@@ -5,9 +5,6 @@
 Running the tool
 ****************
 
-Instructions
-------------
-
 The operation of the Data Selector tool is explained in this section. While the interface is similar between the ArcGIS Pro, ArcMap and MapInfo implementations of the tool, there are some differences. This user guide is specific to the ArcGIS Pro version of the tool.
 
 As discussed in the :doc:`Setting up the tool <../setup/setup>` section, the Data Selector tool is operated from the GIS application. It relies on the SQL tables containing any data that may be selected and a configuration document for setting up the tool. Therefore, before running the tool, ensure the following conditions are met:
@@ -77,6 +74,11 @@ structure is correct, the list of user profiles will appear in the drop-down lis
 
 .. note::
 	The location of the configuration folder will be stored for future use.
+
+
+.. raw:: latex
+
+   \newpage
 
 .. index::
 	single: Loading a profile
@@ -226,7 +228,7 @@ While the process is running a progress bar will appear at the bottom of the for
 	The progress bar as the process is running
 
 
-Once the process has finished the log file will be opened (:numref:`figLogFile`), if required, so that you can check the process has completed correctly, and the results will be added to the screen as discussed above.
+Once the process has finished the log file will be opened (:numref:`figLogFile`), if required, so that you can check the process has completed correctly, and the results will be added to the active map as discussed above.
 
 .. _figLogFile:
 
@@ -254,7 +256,7 @@ An example of spatial and tabular outputs in ArcGIS Pro is shown in :numref:`fig
 
 
 Loading & saving queries
-------------------------
+========================
 
 Queries can be saved for future use, so once a query has been written and saved it can be loaded and re-run by any user at any time and it will output results from the most up-to-date copy of the database.
 
