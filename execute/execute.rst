@@ -22,7 +22,7 @@ As discussed in the :doc:`Setting up the tool <../setup/setup>` section, the Dat
    \newpage
 
 .. index::
-	single: Opening the form
+	single: Opening the tool
 
 Opening the tool
 ================

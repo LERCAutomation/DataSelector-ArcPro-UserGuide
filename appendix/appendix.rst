@@ -8,7 +8,9 @@ Appendix
 Example tool XML file
 =====================
 
-Below is an example of tool XML that must be present for the Data Selector tool in ArcGIS Pro.
+Below is an example of an XML profile that might be used to set up the Data Selector tool in ArcGIS Pro.
+Note, many of the settings have been included for illustration only and it is up to each user or LERC to
+ensure the system is configured to their requirements.
 
 ::
 
