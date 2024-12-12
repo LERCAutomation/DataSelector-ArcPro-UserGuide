@@ -43,6 +43,7 @@ In order to 'spatialize' the master table additional steps in the SQL script are
    \newpage
 
 .. index::
+	single: Tool
 	single: Tool; Components
 
 The Data Selector tool

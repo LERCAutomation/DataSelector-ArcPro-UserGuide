@@ -109,10 +109,10 @@ Many thanks are due to all the LERCs and their staff who have, and continue to, 
 	\newpage
 
 .. index::
-	single: Conventions used in this user guide
+	single: Conventions used in this guide
 
-Conventions used in this user guide
-===================================
+Conventions used in this guide
+==============================
 
 The following typographical conventions are used in this manual:
 

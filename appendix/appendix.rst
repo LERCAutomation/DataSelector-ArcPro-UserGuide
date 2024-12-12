@@ -4,6 +4,7 @@ Appendix
 
 .. index::
     single: Appendix; Change Log
+    single: Appendix
     single: Change Log
 
 .. _change_log:
@@ -55,8 +56,13 @@ Change Log
     * Initial version
 
 
+.. raw:: latex
+
+   \newpage
+
 .. index::
     single: Appendix; XML files
+    single: XML files
     single: XML files; Example Tool XML file
 
 .. _example_xml:
@@ -109,6 +115,10 @@ ensure the system is configured to their requirements.
     </InitialConfig>
     </configuration>
 
+
+.. raw:: latex
+
+   \newpage
 
 .. index::
 	single: XML files; Example user XML profile
