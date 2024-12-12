@@ -3,7 +3,63 @@ Appendix
 ********
 
 .. index::
+    single: Appendix; Change Log
+    single: Change Log
+
+.. _change_log:
+
+Change Log
+==========
+
+**1.0.6**
+(12th Dec 2024)
+
+    * :guilabel:`Change` - Standardise shared functions
+    * :guilabel:`Fix` - Ensure list of SQL tables is loaded
+
+**1.0.5**
+(29th Oct 2024)
+
+    * :guilabel:`New` - Buttons to expand/contract the SQL text boxes
+    * :guilabel:`Improved` - Improve load performance
+    * :guilabel:`Change` - Standardise shared functions
+
+**1.0.4**
+(12th Oct 2024)
+
+    * :guilabel:`Improved` - Improve panel layout
+
+**1.0.3**
+(7th Aug 2024)
+
+    * :guilabel:`New` - Option to set SQL timeout when verifying query
+    * :guilabel:`New` - Option to list table columns horizontally or vertically
+    * :guilabel:`Improved` - Improve method of verifying query
+    * :guilabel:`Fix` - Bug determining whether query is spatial or not
+
+**1.0.2**
+(20th Jul 2024)
+
+    * :guilabel:`Change` - Standardise shared functions
+    * :guilabel:`New` - Include progress animation on interface
+
+**1.0.1**
+(31st May 2024)
+
+    * :guilabel:`Improved` - Additional progress messages
+    * :guilabel:`Improved` - Additional error handling and warning messages
+
+**1.0.0**
+(30th May 2024)
+
+    * Initial version
+
+
+.. index::
+    single: Appendix; XML files
     single: XML files; Example Tool XML file
+
+.. _example_xml:
 
 Example tool XML file
 =====================
@@ -188,10 +244,25 @@ ensure the system is configured to their requirements.
 	\newpage
 
 .. index::
+    single: Appendix; Licence
     single: License
+
+.. _licence:
 
 GNU Free Documentation License
 ==============================
+
+Permission is granted to copy, distribute and/or modify this document under 
+the terms of the GNU Free Documentation License, Version 1.3 or any later
+version published by the Free Software Foundation; with no Invariant Sections,
+no Front-Cover Texts and no Back-Cover Texts.  A copy of the license is
+included in the Appendix section.
+
+.. raw:: latex
+
+    The full GNU Free Documentation License can be viewed at `www.gnu.org/licenses/fdl-1.3.en.html <https://www.gnu.org/licenses/fdl-1.3.en.html>`_
+
+.. only:: html
 
 ::
 

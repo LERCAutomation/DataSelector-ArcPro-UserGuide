@@ -90,8 +90,23 @@ Related community links:
 Acknowledgements
 ================
 
-Many thanks are due to all the LERCs in the south-east of England and their staff who have, and continue to, fund and contribute to the Data Selector tool.  It takes many developers, testers and users to build a truly useful tool (especially users who care enough to test new releases, report bugs and discuss feature requests).
+The DataSelector tool was developed with funding from:
 
+* Greenspace Information for Greater London CIC
+* Thames Valley Environmental Records Centre
+* Sussex Biodiversity Records Centre
+* Surrey Biodiversity Information Centre
+
+And with additional funding from:
+* Dorset Environmental Records Centre
+* Isle of Wight Local Records Centre
+
+Many thanks are due to all the LERCs and their staff who have, and continue to, fund and contribute towards the DataSelector tool.
+
+
+.. raw:: latex
+
+	\newpage
 
 .. index::
 	single: Conventions used in this user guide
@@ -124,4 +139,3 @@ The following typographical conventions are used in this manual:
 
 .. caution::
 	Warnings where users should pay attention.
-

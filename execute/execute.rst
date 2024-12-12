@@ -23,6 +23,7 @@ As discussed in the :doc:`Setting up the tool <../setup/setup>` section, the Dat
 
 .. index::
 	single: Opening the tool
+	single: Running the tool; Opening the tool
 
 Opening the tool
 ================
@@ -44,7 +45,8 @@ To open the Data Selector tool in ArcGIS Pro, open the **Tools** menu bar and cl
    \newpage
 
 .. index::
-	single: Initial set-up
+	single: Set-up
+	single: Running the tool; Initial set-up
 
 Initial set-up
 ==============
@@ -82,6 +84,7 @@ structure is correct, the list of user profiles will appear in the drop-down lis
 
 .. index::
 	single: Loading a profile
+	single: Running the tool; Loading a profile
 
 Loading a profile
 =================
@@ -134,9 +137,10 @@ Provided that the selected XML profile is otherwise correct, the **Select** tab 
 
 .. index::
 	single: Using the form
+	single: Using the form; Specifying the query
 
-Using the form
-==============
+Specifying the query
+====================
 
 Specify the columns and SQL clauses that you wish to use to query the selected table. All syntax should adhere to SQL Server SQL syntax, and it is important that the correct part of the query is entered in the correct text box (:numref:`figEnterSQLCriteria`).
 
@@ -210,6 +214,9 @@ Finally, select whether the log file should be overwritten, and whether the log 
 
    \newpage
 
+.. index::
+	single: Using the form; Running the query
+
 Running the query
 =================
 
@@ -276,6 +283,9 @@ An example of spatial and tabular outputs in ArcGIS Pro is shown in :numref:`fig
 .. raw:: latex
 
    \newpage
+
+.. index::
+	single: Using the form; Loading & saving queries
 
 Loading & saving queries
 ========================

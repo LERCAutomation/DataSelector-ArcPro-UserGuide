@@ -43,7 +43,7 @@ In order to 'spatialize' the master table additional steps in the SQL script are
    \newpage
 
 .. index::
-	single: Tool components
+	single: Tool; Components
 
 The Data Selector tool
 ======================
@@ -58,6 +58,8 @@ There are four component parts to the Data Selector tool that work together to a
 #. One or more user XML profiles that specifies how the tool is set up and how data will be saved by default.
 #. The Data Selector tool ArcGIS Pro add-in.
 
+.. index::
+	single: Tool; Workflow
 
 Tool workflow
 -------------
@@ -94,18 +96,14 @@ In essence, the process that the tool follows is identical to the manual process
    \newpage
 
 .. index::
-	single: Tool outputs
+	single: Tool; Outputs
 
 Tool outputs
-============
+------------
 
 When the process finishes, the output is added to the GIS interface, either as a new GIS layer or as a non-spatial text table.
 
-Output files
-------------
-
 The tool will output GIS layers as ESRI (.shp) shapefiles or as file-geodatabase feature classes. An example of the output the tool can generate is showin in :numref:`figGISOutput`.
-
 
 .. _figGISOutput:
 
