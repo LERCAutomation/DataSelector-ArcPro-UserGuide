@@ -12,6 +12,12 @@ Appendix
 Change Log
 ==========
 
+**1.0.9**
+(14th Jan 2025)
+
+    * :guilabel:`Changed` - Checkboxes styles now match ArcGIS Pro style
+    * :guilabel:`Changed` - Standardise shared functions
+
 **1.0.8**
 (6th Jan 2025)
 
@@ -22,20 +28,20 @@ Change Log
 (17th Dec 2024)
 
     * :guilabel:`Improved` - Log and report errors adding search area and buffer to map
-    * :guilabel:`Change` - Always open log file after errors
+    * :guilabel:`Changed` - Always open log file after errors
 
 **1.0.6**
 (12th Dec 2024)
 
-    * :guilabel:`Change` - Standardise shared functions
-    * :guilabel:`Fix` - Ensure list of SQL tables is loaded
+    * :guilabel:`Changed` - Standardise shared functions
+    * :guilabel:`Fixed` - Ensure list of SQL tables is loaded
 
 **1.0.5**
 (29th Oct 2024)
 
     * :guilabel:`New` - Buttons to expand/contract the SQL text boxes
     * :guilabel:`Improved` - Improve load performance
-    * :guilabel:`Change` - Standardise shared functions
+    * :guilabel:`Changed` - Standardise shared functions
 
 **1.0.4**
 (12th Oct 2024)
@@ -48,12 +54,12 @@ Change Log
     * :guilabel:`New` - Option to set SQL timeout when verifying query
     * :guilabel:`New` - Option to list table columns horizontally or vertically
     * :guilabel:`Improved` - Improve method of verifying query
-    * :guilabel:`Fix` - Bug determining whether query is spatial or not
+    * :guilabel:`Fixed` - Bug determining whether query is spatial or not
 
 **1.0.2**
 (20th Jul 2024)
 
-    * :guilabel:`Change` - Standardise shared functions
+    * :guilabel:`Changed` - Standardise shared functions
     * :guilabel:`New` - Include progress animation on interface
 
 **1.0.1**
